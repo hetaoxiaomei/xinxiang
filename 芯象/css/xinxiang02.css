@@ -1,0 +1,166 @@
+
+.advantage01 .ul01 li i,.advantage01 .ul02 li i{
+    background-image: url(../images/xinxiang10.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.advantage01 .ul03 li i,.function-ul01 li i{
+    background-image: url(../images/xinxiang18.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: "Microsoft YaHei", Arial !important;
+    background: #fff
+}
+
+.xinxiang-nav{
+    font-size:16px;
+    text-align: right;
+    background: #fff
+}
+
+.xinxiang-nav a{
+    margin: 0 0 0 95px;
+    display: block;
+    float: left;}
+
+.buy-bt{
+    text-align: center;
+    height:44px;
+    width:78px;
+    border-radius:22px;
+    background:#0084FF;
+    color:#fff;
+    line-height:44px;
+    font-size:18px;
+    margin: 0 0 0 95px;
+} 
+
+.advantage01{padding: 100px 0 0;box-sizing: border-box;}
+
+.advantage01 .f01{font-size:40px;color:rgba(80,214,90,.1);text-align:center;font-weight:bold;}
+
+.advantage01 .f02{font-size:30px;text-align: center;margin:-14px auto 0;}
+
+.advantage01 .f03{font-size:20px;text-align:center;line-height:1.6;margin:30px auto 0;}
+
+.advantage01 .ul01{
+    width: 1200px;
+    margin:0 auto;
+    padding: 50px 20px 100px;
+    overflow:auto;box-sizing: border-box}
+
+.advantage01 .ul01 li{width: 240px;height: 240px;box-sizing: border-box;padding:50px 0 0;float: left;margin-right: 66px;}
+
+.advantage01 .ul01 li:hover{box-shadow:0 5px 20px rgba(165,198,167,.28);cursor: pointer;}
+
+.advantage01 .ul01 li i{
+    display: block;
+    margin:0 auto 28px;
+    width:72px;
+    height: 72px;
+    display: block;
+}
+
+.advantage01 .ul01 li:nth-child(4n){margin-right: 0;}
+
+.advantage01 p{font-size:22px;text-align: center}
+
+.advantage01 .ul02{
+    padding: 80px 70px 100px;
+    width: 1200px;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.advantage01 .ul02 li{
+    width: 240px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 170px;
+}
+
+.advantage01 .ul02 li i{
+    display: block;
+    margin:0 auto 28px;
+    width:80px;
+    height: 60px;
+    display: block;
+}
+
+
+.advantage01 .ul02 li:nth-child(3n){
+    margin-right: 0;
+}
+
+.advantage01 .ul02.type01{padding: 80px 70px 0;}
+
+.advantage01 .ul02.type01 li i{
+    width:85px;
+    height: 85px;
+    display:block
+}
+
+.buy-bt02{
+    width:110px;
+    height:40px;
+    line-height: 40px;
+    border-radius:4px;
+    color:#fff;
+    display: block;
+    margin: 20px auto 0;
+    font-size: 12px;
+    background: #3EC148;
+}
+
+.advantage01 .ul03{width: 1200px;margin: 0 auto;overflow: hidden;}
+
+.advantage01 .ul03 li{
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px 150px 0 0;
+}
+
+.advantage01 .ul03 li:nth-child(3n){ margin: 80px 0 0 0;}
+
+.advantage01 .ul03 li i{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 28px;
+}
+
+.function-ul01{overflow: hidden;}
+
+.function-ul01 li{
+   float: left;
+   width:52px;
+   height: 52px;
+   display: block;
+   text-align: center
+}
+
+.function-ul01 li i{
+    width:52px;
+    height: 52px;
+    display: block;
+    margin:0 auto;
+}
+
+.function-ul01 li p{
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:1024px) {
+    .bottom-ul,.friend-link{
+        width: 90%
+    }
+
+}
